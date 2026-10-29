@@ -1,0 +1,10 @@
+{
+  "name": "chatgarden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An anonymous Twitch chat garden overlay for OBS",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "dependencies": { "express": "^4.21.2", "tmi.js": "^1.8.5", "ws": "^8.18.0" }
+}
